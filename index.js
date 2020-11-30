@@ -139,10 +139,21 @@
 
 // // for in of
 
-const fruits = ['apple', 'orange', 'mango'];
-for (f in fruits){
-    console.log(f);
+// const fruits = ['apple', 'orange', 'mango'];
+// for (f in fruits){
+//     console.log(f);
+// }
+// for (ff of fruits){
+//     console.log(ff);
+// }
+
+
+
+// // class, static, extends
+
+class Person{
+    constructor(){
+        console.log('Im constructor');
+    }
 }
-for (ff of fruits){
-    console.log(ff);
-}
+//let p = new Person();
