@@ -89,7 +89,7 @@
 //         age
 //     }
 // }
-// console.log(person('Htet Phyo Lin', 24))
+// console.log(person('Htet Phyo Lin', 24));
 
 // const person = ()=>{
 //     return {
@@ -104,11 +104,18 @@
 // person().showName();
 // person().showAge();
 
-const person = (name)=>{
-    let perfix='Name';
-    return {
-        [perfix+name]:name
-    }
-}
-console.log(person('HPL'))
+// const person = (name)=>{
+//     let perfix='Name';
+//     return {
+//         [perfix+name]:name
+//     }
+// }
+// console.log(person('HPL'));
+
+
+
+// // destructing
+
+const fruits = ['apple', 'orange', 'mango'];
+const [one,two,three] = fruits;
 
