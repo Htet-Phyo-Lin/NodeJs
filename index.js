@@ -31,7 +31,7 @@
 
 // // Single line
 // const showName = (name,age)=> console.log(name,age);
-// showName("this is my name",24);
+// showName("this is my name",18);
 
 
 
@@ -39,7 +39,7 @@
 
 // const Person = {
 //     name: "name",
-//     age: 24,
+//     age: 18,
 //     showName(){
 //         console.log(this.name);
 //     },
@@ -73,7 +73,7 @@
 // let fullFruits = [...fruits, 'mango'];
 // console.log(fullFruits);
 
-// let personalDetail = {name:"Htet Phyo Lin", age:24};
+// let personalDetail = {name:"Htet Phyo Lin", age:18};
 // let fullID = {...personalDetail, locations:'Magway', phone:09784108936};
 // console.log(fullID);
 
@@ -89,7 +89,7 @@
 //         age
 //     }
 // }
-// console.log(person('Htet Phyo Lin', 24));
+// console.log(person('Htet Phyo Lin', 18));
 
 // const person = ()=>{
 //     return {
@@ -97,7 +97,7 @@
 //             console.log('Htet Phyo Linm(Methods in Object)');
 //         },
 //         showAge: function(){
-//             console.log(24);
+//             console.log(18);
 //         }
 //     }
 // }
@@ -116,6 +116,33 @@
 
 // // destructing
 
-const fruits = ['apple', 'orange', 'mango'];
-const [one,two,three] = fruits;
+// const fruits = ['apple', 'orange', 'mango'];
+// const [one,two,three] = fruits;
+// console.log(one, two, three);
 
+// const person = {
+//     name: 'Htet Phyo Lin',
+//     age: 18,
+// }
+// const {name,age} = person;
+// console.log(name,age);
+
+
+
+// // Template String
+
+// const name = 'Htet Phyo Lin';
+// const age = 28;
+// console.log('I am ${name}. ${age} year old.');
+
+
+
+// // for in of
+
+const fruits = ['apple', 'orange', 'mango'];
+for (f in fruits){
+    console.log(f);
+}
+for (ff of fruits){
+    console.log(ff);
+}
